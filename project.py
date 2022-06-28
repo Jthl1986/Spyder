@@ -6,10 +6,5 @@ st.set_page_config(
 
 st.title("Financial Planning Calculator")
 st.header("**Monthly Income**")
-st.subheader("Salary")*- coding: utf-8 -*-
-"""
-Spyder Editor
 
-This is a temporary script file.
-"""
 
