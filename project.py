@@ -1,10 +1,6 @@
-# -import streamlit as st
-import plotly.graph_objects as go
-import numpy as np
+import streamlit as st
 st.set_page_config(
     page_title="Financial Planning Calculator")
 
 st.title("Financial Planning Calculator")
 st.header("**Monthly Income**")
-
-
