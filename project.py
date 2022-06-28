@@ -97,3 +97,11 @@ def constructor():
     elif tipo == '5':
         valor = vacas*cantidad
     return categoria, cantidad, peso, valor
+
+def programa():  
+    metalista = []
+    metalista = metalista.append(constructor())
+    from tabulate import tabulate
+    return st.write(f'\n\n{tabulate(metalista, headers=["Categoría", "Cantidad", "Peso", "Valuación"])}\n\nLos precios considerados son de la {fecha}')
+    
+programa()
