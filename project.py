@@ -5,7 +5,7 @@ st.set_page_config(
     page_title="Herramientas Agro")
 st.title("Valuación de hacienda")
 
-coltipo, colcantidad, colpeso = st.beta_columns(3)
+coltipo, colcantidad, colpeso = st.columns(3)
 with coltipo:
     tipo = st.text_input("Ingrese categoría de hacienda: ", format='%f')
 with colcantidad:
