@@ -13,4 +13,4 @@ with colcantidad:
 with colpeso:
     peso = st.number_input("Ingrese peso: ", min_value=0.0)
 from tabulate import tabulate
-print(f'\n\n{tabulate(headers=["Categoría", "Cantidad", "Peso", "Valuación"]}')
+print(tabulate(headers=["Categoría", "Cantidad", "Peso", "Valuación"]))
