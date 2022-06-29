@@ -7,7 +7,7 @@ st.title("Valuación de hacienda")
 
 coltipo, colcantidad, colpeso = st.columns(3)
 with coltipo:
-    tipo = st.text_input("Ingrese categoría de hacienda: ", format='%f')
+    tipo = st.text_input("Ingrese categoría de hacienda: ")
 with colcantidad:
     cantidad = st.number_input("Ingrese cantidad de cabezas: ", min_value=0.0, format='%f')
 with colpeso:
